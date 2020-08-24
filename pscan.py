@@ -44,3 +44,6 @@ elif menu == "3":
   print(scanner[ip].all_protocols())
   print(" ")
   print("Open ports: ", scanner[ip]['tcp'].keys())
+else:
+  print ("Wrong choise")
+
